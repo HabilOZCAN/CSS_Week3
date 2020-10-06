@@ -1,0 +1,41 @@
+/*BURADAKİ ÇALIŞMADA BAYRAGIN DOGRU ORANDA OLMASI VE EKRAN
+GENISLIGININ DEKSTOPLADA KULLANILAN BROWSERLARDA YUKSEKLIKTEN
+FAZLA OLMASI NEDENIYLE BROWSER'IN GENISLIGI REFERANS ALINARAK
+BIRIM OLARAK "vw" --browsergenıslıgı/100'e dek gelmekte-- 
+KULLANILMISTIR.*/
+article {
+  font-family: monospace;
+  font-size: x-large;
+  color: rgb(44, 69, 102);
+}
+
+.swissflag {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  width: 32vw;
+  height: 32vw;
+}
+
+#YXA {
+  background-color: white;
+  width: 6vw;
+  height: 20vw;
+  position: relative;
+  top: 6vw;
+  left: 13vw;
+}
+
+#AXY {
+  background-color: white;
+  width: 20vw;
+  height: 6vw;
+  position: relative;
+  top: 13vw;
+  left: 0vw;
+}
+
+footer {
+  font-family: monospace;
+  color: rgb(44, 69, 102);
+}
